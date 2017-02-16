@@ -54,7 +54,7 @@ function addProject(result){
 function randomizeColors(e) {
 	e.preventDefault();
 	console.log("User clicked on color button");
-	$.get("/palette/", randomColors);
+	$.get("/palette", randomColors);
 }
 
 function randomColors(result) {
